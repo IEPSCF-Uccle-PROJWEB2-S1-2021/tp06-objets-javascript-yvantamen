@@ -1,5 +1,5 @@
-function Shape(name, sides, sideLength) {
-  this.name = name;
-  this.sides = sides;
-  this.sideLength = sideLength;
+function calculPerimetre( sides, sideLength) 
+{
+ let p = sides + sides + sideLength;
+ return p;
 }
